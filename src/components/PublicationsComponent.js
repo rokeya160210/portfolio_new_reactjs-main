@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Carousel } from "antd";
+import { Typography } from "antd";
 import "../css/shared.css";
 import PublicationItemComponent from "./Items/PublicationItemComponent";
 

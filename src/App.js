@@ -21,9 +21,13 @@ const SkillsComponent = React.lazy(() =>
     import("./components/SkillsComponent")
 );
 
-// const ContactsComponent = React.lazy(() =>
-//     import("./components/ContactsComponents")
-// );
+const ContactsComponent = React.lazy(() =>
+     import("./components/ContactsComponents")
+);
+const ActivityComponent = React.lazy(() =>
+     import("./components/ActivityComponent")
+);
+
 
 const AboutComponent = React.lazy(() => import("./components/AboutComponent"));
 
@@ -40,13 +44,13 @@ const App = () => {
 
     const eduRef = useRef(null);
     const aboutRef = useRef(null);
-    // const contactRef = useRef(null);
+    const contactRef = useRef(null);
     const experienceRef = useRef(null);
     const homeRef = useRef(null);
     const projectsRef = useRef(null);
     const publicationsRef = useRef(null);
     const skillsRef = useRef(null);
-    // const activityRef = useRef(null);
+    const activityRef = useRef(null);
 
     const toggleDrawer = (value) => {
         setVisible(!value);
@@ -100,12 +104,12 @@ const App = () => {
                                 <li className="nav-item">
                                     <div className="nav-link" onClick={()=>executeScroll(publicationsRef)}>Publications</div>
                                 </li>
-                                {/* <li className="nav-item">
-                                    <div className="nav-link" onClick={()=>executeScroll(activityRef)}>Activity</div>
-                                </li> */}
-                                {/* <li className="nav-item">
+                                { <li className="nav-item">
+                                    <div className="nav-link" onClick={()=>executeScroll(activityRef)}>Honors and Achievements</div>
+                                </li> }
+                                { <li className="nav-item">
                                     <div className="nav-link" onClick={()=>executeScroll(contactRef)}>Contact</div>
-                                </li> */}
+                                </li> }
                             </ul>
                         </div>
                     </div>
@@ -117,7 +121,9 @@ const App = () => {
                         <EdutcationComponent ownRef={eduRef} />
                         <ProjectsComponent ownRef={projectsRef} />
                         <PublicationComponent ownRef={publicationsRef} />
-                        {/* <ContactsComponent ownRef={contactRef} /> */}
+                        <ActivityComponent ownRef={activityRef} /> 
+                        <ContactsComponent ownRef={contactRef} /> 
+                        
                     </div>
                 </header>
 
@@ -138,7 +144,8 @@ const App = () => {
                     <div className="drawer-item" onClick={()=>executeScroll(experienceRef)}>Experiences</div>
                     <div className="drawer-item" onClick={()=>executeScroll(projectsRef)}>Projects</div>
                     <div className="drawer-item" onClick={()=>executeScroll(publicationsRef)}>Publications</div>
-                    {/* <div className="drawer-item" onClick={()=>executeScroll(contactRef)}>Contact</div> */}
+                    <div className="drawer-item" onClick={()=>executeScroll(activityRef)}>Honors and Achievements</div> 
+                    <div className="drawer-item" onClick={()=>executeScroll(contactRef)}>Contact</div> 
                     {/* 
                         <div className="nav-link">Activity</div>
                      */}

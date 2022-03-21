@@ -46,7 +46,7 @@ const ContactsComponents = (props) => {
             <Form.Item label="Subject" style={{ color: "whitesmoke" }}>
               <Input.TextArea placeholder="Enter your message" />
             </Form.Item>
-            <Form.Item {...buttonItemLayout}>
+            <Form.Item {...buttonItemLayout} style={{ text: "center" }}>
               <Button type="primary">Submit</Button>
             </Form.Item>
           </Form>

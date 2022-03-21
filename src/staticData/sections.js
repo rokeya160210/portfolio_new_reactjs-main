@@ -5,5 +5,6 @@ export const section = {
   experiences: "experiences",
   projects: "projects",
   publications: "publications",
+  Achievements:"Honors and Achievements",
   contacts: "contacts",
 };
