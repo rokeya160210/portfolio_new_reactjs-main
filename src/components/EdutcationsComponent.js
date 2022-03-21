@@ -10,37 +10,37 @@ const educationList = [
         institute: "Khulna University, Bangladesh", 
         degree: "BSc. in Computer Science & Engineering",
         session: "January 2016 - January 2020", 
-        point: "3.10", 
+        point: "3.54", 
         key:"university",
         gpasystem: "CGPA",
         location: "Khulna‐9208, Bangladesh",
         url:"https://ku.ac.bd/",
-        details: ["Thesis Topic: Design and Development of Bengali WordNet Based on Princeton English WordNet"] 
+        details: ["Thesis Topic: Development Of a System For Detection And Extraction Of Camera Inserted Date From Image"] 
     },
     {
-        institute: "New Govt. Degree College, Rajshahi",
+        institute: "Akij Collegiate School, Jessore",
         degree: "Higher Secondary School", 
         session: "July 2013 - Jun 2015", 
         key:"college", 
-        location: "Rajshahi, Bangladesh",
-        url: "https://ngdc-raj.ac.bd/",
-        details: ["HSc: GPA 5.00 out of 5"] 
+        location: "Navaron, Jessore",
+        url: "https://akijcs.wordpress.com/",
+        details: ["HSc: GPA 4.92 out of 5"] 
     },
     {
-        institute: "Momena Ali Biggan School",
+        institute: "Akij Collegiate School",
         degree: "Secondary School", 
         session: "January 2008 - March 2013", 
         key:"seconday-school", 
-        location: "Ullapara, Sirajganj",
-        url: "https://momenaalibigganschool.blogspot.com/",
+        location: "Navaron, Jessore",
+        url: "https://akijcs.wordpress.com/",
         details: ["SSC: GPA 5.00 out of 5", "JSC: GPA 5.00 out of 5"] 
     },
     {
-        institute: "Kayempur Govt. Primary School",
+        institute: "Navaron Govt. Primary School",
         degree: "Primary School", 
         session: "January 2001 - December 2007", 
         key:"primary-school", 
-        location: "Shahzadpur, Sirajganj",
+        location: "Navaron, Jessore",
     },
 ]
 

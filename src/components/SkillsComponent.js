@@ -1,13 +1,13 @@
 import React from "react";
 import "../css/shared.css";
 import {Typography } from "antd";
-import {ReactComponent as PhpLogo} from "../assets/languageLogo/php.svg";
+import {ReactComponent as JavaLogo} from "../assets/languageLogo/java1.svg";
 import {ReactComponent as JavaScriptLogo} from "../assets/languageLogo/javascript.svg";
 import {ReactComponent as NodeJsLogo} from "../assets/languageLogo/nodejs-logo-svgrepo-com.svg";
-import {ReactComponent as LaravelLogo} from "../assets/languageLogo/laravel.svg";
+import {ReactComponent as Angular} from "../assets/languageLogo/angular-seeklogo.com.svg";
 import {ReactComponent as ExpressLogo} from "../assets/languageLogo/express.svg";
 import {ReactComponent as ReactjsLogo} from "../assets/languageLogo/react.svg";
-import {ReactComponent as ReduxLogo} from "../assets/languageLogo/redux.svg";
+import {ReactComponent as PostgreSql} from "../assets/languageLogo/postgresql.svg";
 import {ReactComponent as CLogo} from "../assets/languageLogo/c.svg";
 import {ReactComponent as CssLogo} from "../assets/languageLogo/css3.svg";
 import {ReactComponent as GitLogo} from "../assets/languageLogo/git.svg";
@@ -39,9 +39,9 @@ const SkillsComponent = (props) => {
                 </h3>
                 <div className="align_div">
                     <div className="gallery">
-                        <PhpLogo className="skills_logo"/>
+                        <JavaLogo className="skills_logo"/>
                         <div className="border padding_skill_item">
-                            PHP 
+                            Java 
                         </div>
                     </div>
                     
@@ -58,6 +58,7 @@ const SkillsComponent = (props) => {
                             C 
                         </div>
                     </div>
+                    
                     
                     <div className="gallery">
                         <PythonLogo className="skills_logo"/>
@@ -94,12 +95,7 @@ const SkillsComponent = (props) => {
                             ExpressJs 
                         </div>
                     </div>
-                     <div className="gallery">
-                        <LaravelLogo className="skills_logo"/>
-                        <div className="border padding_skill_item">
-                            Laravel 
-                        </div>
-                    </div>
+                     
                 </div>
             </div>
 
@@ -116,9 +112,9 @@ const SkillsComponent = (props) => {
                         </div>
                     </div>
                     <div className="gallery">
-                        <ReduxLogo className="skills_logo"/>
+                        <Angular className="skills_logo"/>
                         <div className="border padding_skill_item">
-                            Redux 
+                            Angular 8
                         </div>
                     </div>
                 </div>
@@ -137,9 +133,9 @@ const SkillsComponent = (props) => {
                         </div>
                     </div>
                     <div className="gallery">
-                        <OracleLogo className="skills_logo"/>
+                        <PostgreSql className="skills_logo"/>
                         <div className="border padding_skill_item">
-                            Oracle Database 
+                        PostgreSql 
                         </div>
                     </div>
                 </div>

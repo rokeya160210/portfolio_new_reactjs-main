@@ -30,7 +30,7 @@ const PublicationItemComponent = (props) => {
             <p className="publication_item_content_p">
               <span
                 style={{ fontSize: "130%", color: "#FFC900" }}
-              >{`Abstract: `}</span>
+              >{`Author: `}</span>
               {`${data.abstract}`}
             </p>
           )}

@@ -66,7 +66,7 @@ const HomeComponent = (props) => {
                 CSE Department,{" "}
                 <a href={"https://kyau.edu.bd/kyau/"}>
                   {" "}
-                  Khwaja Younus Ali University{" "}
+                  Khwaja Yunus Ali University{" "}
                 </a>
               </div>
             </div>

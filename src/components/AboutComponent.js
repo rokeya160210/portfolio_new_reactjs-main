@@ -14,10 +14,10 @@ const AboutComponent = () => {
                     style={{ color: "white", textAlign: "center" }}
                 >
                     <img
-                        src={"/admin/rokeya2.jpg"}
-                        style={{ borderRadius: "5px" }}
+                        src={"/admin/rsz_rokeya2.jpg"}
+                        style={{ borderRadius: "5px",width: "300px"}}
                         alt="Miss. Rokeya Akter"
-                        className="image_item image_item_about"
+                         className="image_item image_item_about"
                     />
                 </div>
                 <div
@@ -28,11 +28,10 @@ const AboutComponent = () => {
                         About Me
                     </Title>
                     <p> 
-                        My current stacks are "Laravel"(Backend),
-                        "Reactjs"(Frontend), and Oracle(Database). I'm a
+                        I joined on CSE Department of Khwaja Yunus Ali University on 02 january , 2022. I'm a
                         passionate and hard-working person and want to learn new
-                        technologies.
-                        <br />I have completed <b>BSc Engg (CSE)</b> from{" "}
+                        technologies. My research interested fields are Human Computer Interation(HCI), Image Processing, Machine Learning.
+                        <br />I had completed <b>BSc Engg (CSE)</b> from{" "}
                         <b>Khulna University, Bangladesh</b>.
                     </p>
                     <p>I'm good at</p>
@@ -43,9 +42,9 @@ const AboutComponent = () => {
                                 
                                 "Javascript",
                                 "NodeJs ",
-                               
+                               "Elasticsearch",
                                 "MySql",
-                                "Postgree",
+                                "PostgreSql",
                                 "HTML",
                                 "Bootstrap",
                                 "CSS",
@@ -69,7 +68,7 @@ const AboutComponent = () => {
                     </div>
                     <p style={{ marginTop: "30px" }}>
                         <span className="download_resume_button"
-                            onClick={()=> window.open("https://www.drive.google.com/file/d/1vTAd_olI0G5ybfNYOTFxnyjcTkwDl-2U/view?usp=sharing", "_blank")}
+                            onClick={()=> window.open("https://drive.google.com/file/d/1FwkIT0b4cID3pwDoT33IbunQlK6VtCv_/view?usp=sharing", "_blank")}
                         >
                             Open Resume
                         </span>
