@@ -1,4 +1,4 @@
-export const APP_TITLE = "Md. Abdul Lotif";
+export const APP_TITLE = "Miss.Rokeya Akter";
 
 export const CONTACTS_TITLE = `${APP_TITLE} - Contant Me`;
 export const EDUCATIONS_TITLE = `${APP_TITLE} - Education`;

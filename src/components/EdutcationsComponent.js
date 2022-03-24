@@ -38,7 +38,7 @@ const educationList = [
     {
         institute: "Navaron Govt. Primary School",
         degree: "Primary School", 
-        session: "January 2001 - December 2007", 
+        session: "January 2003 - December 2007", 
         key:"primary-school", 
         location: "Navaron, Jessore",
     },
